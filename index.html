@@ -1,169 +1,41 @@
 <html>
 <head>
-	<title>Jon Thompson - Software Engineer, Philadelphia</title>
+	<title>JT is Jon Thompson</title>
 	<meta name="viewport" content="initial-scale=1">
 	<meta name="google-site-verification" content="44AhQUik6rMi6EtWfanKJ-8603zKxM5De3NkmKAZp0I" />
-	<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
-	<style type="text/css">
-		@media screen and (min-height: 400px) and (min-width: 800px) {
-			.absolute-center {
-				margin: auto;
-				position: absolute;
-				top: 0; left: 0; bottom: 0; right: 0;
-			}
-
-			.icons {
-				position: absolute;
-				top: 0;
-				right: 0;
-			}
-		}
-
-		body {
-			font-family: Raleway, Arial, sans-serif;
-			background-image: url('bg.jpg'); /* http://www.hdwallsource.com/sand-wallpaper-22217.html */
-			background-size: cover;
-		}
-
-		h1, h2, h3 {
-			margin: 0;
-		}
-
-		.container {
-			display: table;
-			height: auto;
-			max-width: 80em;
-			width: 100%;
-		}
-		@media screen and (min-height: 400px) and (min-width: 800px) {
-			.container {
-				width: 80%;
-			}
-		}
-
-		.header {
-			position: relative;
-			margin: 1.5em;
-		}
-
-		.details {
-			display: -webkit-flex;
-			display: -moz-flex;
-			display: flex;
-			-webkit-flex-wrap: wrap;
-			-moz-flex-wrap: wrap;
-			flex-wrap: wrap;
-		}
-
-		.glassy {
-			display: inline-block;
-			background-color: rgba(255, 255, 255, 0.5);
-			padding: 1em;
-		}
-
-		.detail {
-			-webkit-flex: 1 auto;
-			-moz-flex: 1 auto;
-			flex: 1 auto;
-			margin: 1.5em;
-			vertical-align: text-top;
-			line-height: 2em;
-		}
-
-		.list-clean {
-			list-style-type: none;
-			list-style-position: outside;
-			margin: 0;
-			padding: 0;
-		}
-
-		.subtle {
-			opacity: 0.5;
-		}
-
-		h2 {
-			margin-top: 0.2em;
-			padding-left: 5.3rem;
-		}
-
-		.icons {
-			margin-bottom: 0;
-		}
-
-		.icons a {
-			font-size: 1.2em;
-			color: #000;
-			opacity: 0.4;
-			margin-right: 0.5em;
-		}
-
-		.icons a:last-child {
-			margin-right: 1em;
-		}
-
-		.icons a:hover {
-			opacity: 1;
-		}
-
-		.avatar {
-			height: 4.3em;
-			width: 4.3em;
-			margin-right: 1em;
-			border-radius: 50%;
-			float: left;
-		}
-
-		.bModal, .popup {
-			display: none !important;
-		}
-	</style>
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link rel="stylesheet" href="screen.css" media="screen">
 </head>
 <body>
-<div class="container absolute-center">
-	<div class="header glassy">
-		<img class="avatar" src="jt.png" />
-		<h1>Jon Thompson</h1>
-		<h2 class="subtle">Software Engineer, Philadelphia</h2>
-		<p class="icons">
-			<a href="https://www.linkedin.com/pub/jonathan-thompson/31/1b8/268" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
-			<a href="https://github.com/jon-thompson" title="GitHub"><i class="fa fa-github"></i></a>
-			<a href="https://twitter.com/jon_dont_tweet" title="Twitter"><i class="fa fa-twitter"></i></a>
-			<a href="mailto:jt@jethompson.com" title="Email"><i class="fa fa-envelope-o"></i></a>
+	<header>
+		<h1>Hi, I'm <abbr title="Jon Thompson">JT</abbr>!</h1>
+	</header>
+	<main>
+		<p id="bio">
+			I'm a problem solver committed to making lives better by optimizing processes and building tools to support them.
 		</p>
-	</div>
-
-	<div class="details">
-		<div class="detail glassy">
-			<h3 class="subtle">Languages</h3>
-			<ul class="list-clean">
-				<li>JavaScript</li>
-				<li>HTML, CSS</li>
-				<li>C#, ASP.NET</li>
-				<li>PHP</li>
-			</ul>
-		</div>
-
-		<div class="detail glassy">
-			<h3 class="subtle">Interests</h3>
-			<ul class="list-clean">
-				<li>Web development</li>
-				<li>User experience & design</li>
-				<li>Agile development</li>
-				<li>Open-source software</li>
-			</ul>
-		</div>
-
-		<div class="detail glassy">
-			<h3 class="subtle">Experience</h3>
-			<ul class="list-clean">
-				<li>Zoomer</li>
-				<li>eMoney Advisor</li>
-				<li>Siemens Healthcare</li>
-				<li>Drexel University</li>
-			</ul>
-		</div>
-	</div>
-</div>
+		<p>
+			I'm passionate about <strong>product development</strong>, <strong>code craftsmanship</strong>, <strong>JavaScript</strong>
+			(particularly <a href="http://redux.js.org/">Redux</a> and <a href="https://facebook.github.io/react/">React</a>),
+			<strong>dance</strong>, <strong>personal finance</strong>, <strong>real estate</strong>, and <strong>mindfulness</strong> via meditation and minimalism.
+		</p>
+		<p>
+			I currently write software for <a href="https://www.grubhub.com">GrubHub</a> and dance ballet, lyrical, and jazz on a weekly basis.
+		</p>
+		<p id="contact">
+			If any of this sounds interesting to you, let's talk!
+		</p>
+		<ul id="contact-methods">
+			<li>
+				<a href="mailto:jt@jethompson.com">Email</a>
+			</li>
+			<li>
+				<a href="https://www.linkedin.com/in/jt476/">LinkedIn</a>
+			</li>
+			<li>
+				<a href="https://github.com/jon-thompson">GitHub</a>
+			</li>
+		</ul>
+	</main>
 </body>
 </html>
