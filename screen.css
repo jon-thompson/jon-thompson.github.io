@@ -1,12 +1,12 @@
 body {
-  font-family: 'Raleway', sans-serif;
-  color: rgba(28, 28, 28, .9);
+  font-family: "Raleway", sans-serif;
+  color: rgba(28, 28, 28, 0.9);
   margin: 0;
 }
 
 header {
   background-color: #688095;
-  color: #FFF;
+  color: #fff;
   padding: 1.5em 0;
   text-align: center;
 }
@@ -19,11 +19,11 @@ h1 {
 }
 
 h1::before {
-  content: '';
+  content: "";
   display: block;
   width: 150px;
   height: 150px;
-  background-image: url('jt.jpg');
+  background-image: url("jt.jpg");
   background-size: cover;
   border-radius: 50%;
   position: absolute;
@@ -32,7 +32,7 @@ h1::before {
 }
 
 main {
-  max-width: 740px;
+  max-width: 640px;
   padding: 0 30px;
   margin: 3.5em auto;
   text-align: justify;
