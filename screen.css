@@ -1,41 +1,55 @@
 body {
   font-family: "Raleway", sans-serif;
-  color: rgba(28, 28, 28, 0.9);
+  color: #111827;
   margin: 0;
+  background-image: url("henrik-donnestad-t2Sai-AqIpI-unsplash.jpg");
+  background-size: auto 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 header {
-  background-color: #688095;
-  color: #fff;
-  padding: 1.5em 0;
-  text-align: center;
+  background-color: #f9fafb;
+  position: relative;
+  left: 25%;
+  width: 75%;
+  box-sizing: border-box;
 }
 
 h1 {
   position: relative;
-  left: 85px;
+  left: 8rem;
   display: inline-block;
-  font-size: 2.2em;
+  font-size: 4rem;
+  height: 13rem;
+  line-height: 13rem;
+  margin: 1rem 0;
 }
 
 h1::before {
   content: "";
   display: block;
-  width: 150px;
-  height: 150px;
+  width: 12rem;
+  height: 12rem;
   background-image: url("jt.jpg");
   background-size: cover;
   border-radius: 50%;
+  border: 0.5rem solid #f9fafb;
   position: absolute;
-  left: -170px;
-  top: -30px;
+  left: -14rem;
+  z-index: 1;
 }
 
 main {
-  max-width: 640px;
-  padding: 0 30px;
-  margin: 3.5em auto;
+  background-color: #f9fafb;
+  padding: 1rem 4rem;
   text-align: justify;
+  position: relative;
+  left: 25%;
+  width: 75%;
+  box-sizing: border-box;
+  flex-grow: 1;
 }
 
 @media (max-width: 400px) {
@@ -68,15 +82,15 @@ abbr {
 
 p {
   line-height: 2em;
-  margin: 2em 0;
 }
 
 a {
   font-weight: bold;
+  color: #3b82f6;
 }
 
 a:visited {
-  color: blue;
+  color: #1d4ed8;
 }
 
 #bio {
@@ -85,7 +99,6 @@ a:visited {
 }
 
 #contact {
-  text-align: center;
   margin-bottom: 1em;
   font-weight: bold;
 }
@@ -95,10 +108,9 @@ a:visited {
   padding: 0;
   display: table;
   width: 300px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 #contact-methods li {
   display: table-cell;
-  text-align: center;
 }
