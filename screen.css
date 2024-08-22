@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  background-color: #688095;
+  background-color: rgb(28, 17, 25);
   color: #fff;
   padding: 1.25em 0;
   text-align: center;
@@ -29,6 +29,7 @@ h1::before {
   position: absolute;
   left: -170px;
   top: -30px;
+  border: 5px solid rgb(28, 17, 25);
 }
 
 main {
